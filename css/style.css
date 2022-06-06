@@ -1,0 +1,355 @@
+/* HEADER */
+#icon-header{
+    width: 132px;
+    height: auto;
+    margin-bottom: 13%;
+}
+::before{
+    margin-top: 10%;
+}
+.breadcrumb-div{
+    margin-top: 1%;
+}
+.navbar .input-search{
+    height: 2.8rem;
+    box-shadow: none;
+}
+/* FIRST SECTION */
+.first-section{
+    width: 100%;
+    height: 40%;
+    background-color: #F3F6F9;
+    margin-top: -0.8%;
+}
+.div-container-first-section{
+    background-color: transparent;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.bolder{
+    font-weight: bold;
+}
+.description{
+    max-width: 50%;
+}
+.left-img-form{
+    margin-top: auto;
+}
+/* CARDS */
+.container-cards{
+    margin-top: 3%;
+}
+#card-img{
+    background-color: #F3F6F9;
+}
+#cards-home{
+    height: 15%;
+    box-shadow: 0px 1px 3px #38485C33;
+    border-left:  8px solid #FFDB2E;
+}
+.card-text{
+    color: #38485C;
+}
+/* SECOND SECTION */
+.second-section{
+    margin-top: 8%;
+}
+.container-consulta-resultado{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #ccfbe4;
+    display: flex;
+    border-radius: 15px;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#name-input-form{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    box-shadow: none;
+}
+.title-consulta{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #38485C;
+}
+.img-form{
+    width: 100%;
+    height: auto;
+}
+.right-form{
+    padding: 50px;
+}
+/* SERVICIOS */
+.servicios-div{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.title-a-without-decoration{
+    text-decoration: none;
+    color: #007BC7 !important;
+    font-weight: 600;
+}
+.servicios-generales-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+/* PROPUESTAS */
+.propuestas-div{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+#card-propuestas{
+    border-radius: 10px;
+    width: 28%;
+}
+.cards-propuestas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+#title-propuestas{
+    color: #007BC7;
+    text-decoration: underline;
+}
+/* DATOS */
+.datos-div-100{
+    max-width: 100%;
+    margin-top: 10%;
+    padding: 3%;
+    background-color: #F3F6F9;
+}
+.datos-div{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.button-datos-div{
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.button-datos-div button{
+    font-size: 0.9em;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+/* PREVENCION */
+.prevencion-sintomas-div{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.prevencion-div{
+    display: block;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.horizontal-container{
+    /* display: flex; */
+    justify-content: space-between;
+    width: 80%; 
+}
+.horizontal-container .card{
+    box-shadow: none;
+}
+.bolder-info{
+    font-weight: 500;
+    text-align: center;
+}
+.enlaces-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.title-prevencion-sintomas{
+    font-weight: 600;
+}
+.section-footer-up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.container{
+    max-width: 80%;
+}
+/* FOOTER */
+.img-footer{
+    width: 120px;
+    height: 40px;
+}
+.footer-title{
+    display: block;
+}
+.description-phone{
+    color: #AAAAAA;
+    font-weight: 100;
+}
+/* FOOTER - REDES */
+.section-redes{
+    display: flex;
+    max-width: 73%; 
+    margin: 0 auto;
+}
+.list-inline{
+    margin-left: 5%;
+}
+h2{
+    font-weight: 600;
+}
+.escuela-div{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: none;
+}
+.p-red-social{
+    display: none;
+}
+
+@media screen and (max-width: 1031px) {
+    .second-section{
+        margin-top: 10%;
+    }
+    .container-consulta-resultado{
+        max-width: 90%;
+    }
+    label{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .second-section{
+        margin-top: 20%;
+    }
+    .container-consulta-resultado{
+        max-width: 90%;
+    }
+    label{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 100%;
+    }
+    #name-input{
+        background-color: transparent;
+    }
+    .description{
+        max-width: 90%;
+    }
+    #cards-home{
+        height: auto;
+    }
+    .first-section {
+        height: 85%;
+    }
+    .servicios-div{
+        max-width: 90%;
+        margin-top: 10%;
+    }
+    .servicios-generales-div{
+        display: block;
+        max-width: 90%;
+        margin-top: 10%;
+    }
+    .cards-container{
+        margin-top: 10%;
+    }
+    .cards-propuestas{
+        display: block;
+    }
+    #card-propuestas{
+        width: 100%;
+    }
+    .prevencion-sintomas-div{
+        display: block;
+        margin-top: 10%;
+    }
+    #button-consejos{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .top-horizontal-container{
+        margin-top: 10%;
+    }
+    .prevencion-div{
+        margin-top: 20%;
+    }
+    .enlace-faqs{
+        margin-top: 10%;
+    }
+    .datos-div{
+        max-width: 90%;
+    }
+    .enlaces-div{
+        display: grid;
+    }
+    .external{
+        color: #007BC7;
+        font-weight: 700;
+        margin-top: 5%;
+        text-decoration: none;
+    }
+    .section-footer-up{
+        display: block;
+    }
+    #footer{
+        margin-left: 0;
+    }
+    h5{
+        margin-top: 10%;
+        font-weight: 500;
+    }
+    #item-phone{
+        display: flex;
+    }
+    .description-phone{
+        color: #ffff;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+    .section-redes{
+        display: block;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    #container-footer-end{
+        margin-left: 0;
+    }
+    .container-consulta-resultado{
+        max-width: 100%;
+        display: block;
+    }
+    .form-wrapper{
+        display: block;
+    }
+    #name-input-form{
+        height: 45px;
+    }
+    .img-form{
+        width: 100%;
+    }
+    .escuela-div{
+        display: block;
+        max-width: 90%;
+        margin-top: 15%;
+    }
+    .h2-escuela{
+        margin-left: 15px;
+    }
+    .p-red-social{
+        display: block;
+    }
+}
